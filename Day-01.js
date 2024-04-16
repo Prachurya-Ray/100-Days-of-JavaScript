@@ -27,7 +27,6 @@ function findLongestWord(str){
     }
 
     let arr=str.split(" ");   // Split the string into array of words using space as separator
-    
     arr=arr.sort((a,b)=>b.length-a.length);  // Sorting the array based on length of strings  (longest to shortest)
 
     return arr[0];            // Returning the first element as it's the longest one
