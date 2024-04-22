@@ -35,8 +35,6 @@ const isPalindrome = function(str){
 
 
 
-
-
 console.log(isPalindrome("A man, a plan, a canal, Panama")); // Output: true
 
 console.log(isPalindrome("Hello"));
